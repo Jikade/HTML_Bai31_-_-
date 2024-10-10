@@ -1,0 +1,13 @@
+/* Chọn thẻ h2 liền kề sau thẻ h1 */
+h1 + h2 {
+  color: brown;
+}
+
+h3.demo.demo2 + h3 {
+  color: blue;
+}
+
+/* Tất cả thẻ h4 nằm sau thẻ h3 */
+h3 ~ h4 {
+  color: blueviolet;
+}
